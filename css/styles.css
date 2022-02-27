@@ -1,0 +1,70 @@
+/* Rubik 400, 500, 700 */
+/* Roboto 400, 400 italic, 500,500 italic, */
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../webfontis/roboto-v29-latin-regular.woff2") format("woff2"),
+     url("../webfontis/roboto-v29-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:url("../webfontis/roboto-v29-latin-italic.woff2") format("woff2"), 
+    url("../webfontis/roboto-v29-latin-italic.woff") format("woff"); 
+}
+
+@font-face {
+  font-family:"Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../webfontis/roboto-v29-latin-500.woff2") format("woff2"),
+    url("../webfontis/roboto-v29-latin-500.woff") format("woff"); 
+  
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../webfontis/roboto-v29-latin-500italic.woff2") format("woff2"),
+     url("../webfontis/roboto-v29-latin-500italic.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:  url("../webfontis/rubik-v18-latin-regular.woff2") format("woff2"),
+     url("../webfontis/rubik-v18-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../webfontis/rubik-v18-latin-5url00.woff2") format("woff2"), 
+      url("../webfontis/rubik-v18-latin-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../webfontis/rubik-v18-latin-700.woff2") format("woff2"), 
+     url("../webfontis/rubik-v18-latin-700.woff") format("woff");
+}
+
+body{
+  font-family: "Rubik", "Arial",sans-serif;
+}
