@@ -2,46 +2,57 @@
 <html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yangiliklar sayiti</title>
+  <title> Yangiliklar sayiti </title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="page__body" >
-    <a class="logo" href="index.html">
-      <img class="" src="img/logo.png" alt="" width="303" height="33">
-      <ul class="exchenge-rates">
-        <li class="exchenge-rates__item" >
-          <b class="exchenge-rates__icon" >&dollar;</b> 
-          <span class="exchenge-rates__value" >10137.2</span>  
-        </li>
-        <li class="exchenge-rates__item" >
-          <b class="exchenge-rates__icon" >P</b> 
-          <span class="exchenge-rates__value" >138.26</span>  
-        </li>
-        <li class="exchenge-rates__item" >
-          <b class="exchenge-rates__icon" >&euro;</b> 
-          <span class="exchenge-rates__value" >10988.72</span> 
-        </li>
-      </ul>
-      
-      <div>
-        <button class="serarch-button" type="button">
-          <img class="serarch-button__img" src="img/search.png" alt="" width="24" height="24">
-        </button>
-
-        <button class="language-toggler" type="button">
-          <img class="language-toggler__img" src="img/ru.png" alt="" width="20" height="20" >
-          <span class="language-toggler__text" >РУ</span>
-        </button>
-        <a class="telegram-sob" href="https://tem.to/mayoquz">
-          <img class="telegram-sob__img" src="img/telegram.png" alt=""  width="20" height="20" >
-          <span class="telegram-sob__text" >Подпесатся</span>
+    <header class="site-header">
+      <div class="container">
+       <div class="site-header__top">  
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="img/logo.png" alt="" width="303" height="33">
         </a>
-      </div>
+          <ul class="site-header__exchenge-rates exchenge-rates">
+            <li class="exchenge-rates__item">
+              <b class="exchenge-rates__icon" >&dollar;</b>
+              <span class="exchenge-rates__value" >10137.2</span>
+            </li>
+            <li class="exchenge-rates__item" >
+              <b class="exchenge-rates__icon" >P</b>
+              <span class="exchenge-rates__value" >138.26</span>
+            </li>
+            <li class="exchenge-rates__item" >
+              <b class="exchenge-rates__icon" >&euro;</b>
+              <span class="exchenge-rates__value" >10988.72</span>
+            </li>
+          </ul>
+        
+          <div class="site-header__actions">
+            <button class="serarch-button" type="button">
+              <span class="serarch-button__wrapper">
+                <img class="serarch-button__img" src="img/search.png" alt="" width="24" height="24">
+              </span>
+            </button>
 
-    </a>
+            <button class="language-toggler" type="button">
+             <span class="language-toggler__wrapper">
+              <img class="language-toggler__img" src="img/ru.png" alt="" width="20" height="20" >
+              <span class="language-toggler__text" >РУ</span>
+             </span>
+            </button>
+
+            <a class="telegram-sob" href="https://tem.to/mayoquz">
+              <img class="telegram-sob__img" src="img/telegram.png" alt=""  width="20" height="20" >
+              <span class="telegram-sob__text" >Подпесатся</span>
+            </a>
+
+          </div><!-- site-header__actions -->
+          </div><!-- site-header__top -->
+        </div><!-- container -->
+      </div>  
+    </header>
   <script src="js/main.js"></script>
 </body>
 </html>
+<!-- container -->

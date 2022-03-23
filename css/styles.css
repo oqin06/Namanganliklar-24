@@ -1,5 +1,11 @@
-/* Rubik 400, 500, 700 */
-/* Roboto 400, 400 italic, 500,500 italic, */
+/* Table of contents */
+/* 1.Fonts */
+/* 2.General */
+/* 3.Container */
+/* 4.SITE-HEADER */
+/* 5.LOGO */
+/* 6.EXCHANGE-RATES */
+/* 5.SERARCH-BUTTON */
 
 @font-face {
   font-family: "Roboto";
@@ -52,8 +58,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../webfontis/rubik-v18-latin-5url00.woff2") format("woff2"), 
-      url("../webfontis/rubik-v18-latin-500.woff") format("woff");
+  src: url("/webfontis/Rubik-LightItalic.woff2"),
+   url("/webfontis/roboto-v29-latin-regular.woff");
 }
 
 @font-face {
@@ -64,7 +70,174 @@
   src: url("../webfontis/rubik-v18-latin-700.woff2") format("woff2"), 
      url("../webfontis/rubik-v18-latin-700.woff") format("woff");
 }
+/* GENERAL */
+html{
+  box-sizing: border-box;
+  height: 100%;
+
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
 
 body{
+  height: 100%;
   font-family: "Rubik", "Arial",sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
 }
+/* CONTAINER */
+.container{
+  max-width: 1200px; 
+  padding: 0 20px;
+  margin: 0 auto;
+  
+}
+/* SITE-HEADER */
+.site-header{
+  padding-top: 40px;
+  padding-bottom: 20px; 
+  border-top: 4px solid #295093;
+  background-color: #f6f6f9;
+
+} 
+.logo{
+  display: flex;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+}
+.site-header__top{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 16px;
+}
+
+.site-header__actions{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 260px;
+  
+  align-items: center;
+}
+/* EXCHENGE-RATES */
+.exchenge-rates{
+  display: flex;
+  align-items: center; 
+  padding: 0;
+  margin: 0;
+  margin-left: 17px;
+  list-style-type: none;
+  color: #7a7a7a;
+  
+}
+.exchenge-rates__item:not(:last-child){
+  margin-right: 26px;
+}
+.exchenge-rates__icon{
+  font-weight: bolder;
+  color:#1b6cf1;
+
+}
+/* SERARCH-BUTTON */
+.serarch-button{
+  padding: 0;
+  border:none;
+  margin-right: 22px;
+  background-color:#fff;
+  border-radius: 5px;
+}
+.serarch-button__wrapper{
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  justify-content: center;
+
+
+}
+.language-toggler{
+  padding: 8px;
+  border:none;
+  margin-right: 24px;
+  background-color:#fff;
+  border-radius: 5px;
+}
+.language-toggler__wrapper{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.language-toggler__img{
+  width: 20px;
+  height: 20px; 
+  margin-right: 5px;
+}
+
+.language-toggler__text{
+   font-weight:bold;
+  
+}
+.telegram-sob{
+  display: flex;
+  align-items: center;
+  padding: 10px;                       
+  border-radius:5px;
+  font-size: 16px;
+  line-height: 19px;
+  color:#fff;
+  border-color: #1590c3;
+  background-image: linear-gradient(90deg, #1590c3 15.07%, #37aee2 96%);
+  text-decoration: none;
+ 
+}
+.telegram-sob__img{
+  margin-right: 7px;
+}
+.telegram-sob:hover{
+  border-color: #37aee2;
+  background-image: linear-gradient(90deg, #37aee2 15.07%, #1590c3  96%);
+}
+.telegram-sob__text{
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
